@@ -1,0 +1,43 @@
+body {
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+ h1{
+    font-size: 30px;
+    color: #551B14;
+}
+p{
+    font-size: 20px;
+}
+.section5{
+    background-color: #85756E;
+}
+.fichero1, .fichero2, .fichero3{
+    background-color: #EEEBE5;
+    width: 25%;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px;
+}
+.btn{
+    display: inline-block;
+    background-color: #B59DA4;
+    color: #551B14;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+.btn:hover{
+    background-color: #968086;
+}
+.icono1, .icono2, .icono3, .icono4, .icono5{
+    height: 50px;
+    display: inline-block;
+}
+h4{
+    display: inline-block;
+}

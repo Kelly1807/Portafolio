@@ -1,0 +1,40 @@
+body {
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+ h1{
+    font-size: 30px;
+    color: #551B14;
+}
+.section2{
+    color: #551B14;
+    font-size: 24px;
+    padding: 20px;
+}
+.Presentación2{
+    display: inline-block;
+    width: 60%;
+}
+.Imagen2{
+    display: inline-block;
+}
+.Kelly2{
+    width: 35%;
+    border-radius: 370px;
+    border: 20px solid #6D3D14;
+}
+.btn{
+    display: inline-block;
+    background-color: #B59DA4;
+    color: #551B14;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+ .btn:hover{
+    background-color: #968086;
+}

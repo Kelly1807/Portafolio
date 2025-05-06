@@ -1,0 +1,53 @@
+body {
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+ h1{
+     font-size: 30px;
+     color: #551B14;
+}
+.section3{
+    color: #551B14;
+    
+    padding: 20px;
+}
+.ficha1, .ficha2, .ficha3{
+    background-color: #B59DA4;
+    width: 25%;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 19px;
+}
+.Camila, .Twisun, .Nykua{
+    height: 250px;
+    border-radius: 20px;
+}
+.btn-fichas{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #551B14;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+.btn-fichas:hover{
+    background-color: #CDC5B4;
+}
+.btn{
+    display: inline-block;
+    background-color: #B59DA4;
+    color: #551B14;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+ .btn:hover{
+    background-color: #968086;
+}
