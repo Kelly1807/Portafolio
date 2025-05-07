@@ -85,6 +85,18 @@ button:hover{
     border: 2px solid #38100b;
     color: #38100b;
 }
+.btn{
+    display: inline-block;
+    background-color: #B59DA4;
+    color: #551B14;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+ .btn:hover{
+    background-color: #968086;
+}
 footer{
     background-color: #EEEBE5;
     color: #551B14;
