@@ -3,9 +3,8 @@ header {
     color: #551B14;
     padding: 20px;
     font-size: 24px;
-    justify-content: space-between;
-   }
-   
+}
+
 body {
    font-family: "Kanit", sans-serif;
    margin: 0;
@@ -13,16 +12,33 @@ body {
    text-align: center;
    background-color: #ffffff;
 }
-h1{
+h2{
     font-size: 30px;
     color: #551B14;
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.btnI{
+    display: inline-block;
+    color: #551B14;
+    padding: 15px;
+    border-radius: 40px;
+    border: 4px solid #551B14;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.btnI:hover{
+    border: 4px solid #38100b;
+    color: #38100b;
 }
 .section1{
     background-color: #B59DA4;
     color: #551B14;
     font-size: 24px;
 }
-.section1 p, .section2 p{
+.section1 p{
     color: #551B14;
     font-size: 24px;
     display: inline-block;
@@ -37,21 +53,44 @@ h1{
     display: inline-block;
     width: 60%;
 }
+p{
+    font-size: 20px;
+}
+footer{
+    background-color: #EEEBE5;
+    color: #551B14;
+    padding: 40px;
+}
+.fichero1{
+    background-color: #ffffff;
+    width: 25%;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px;
+}
+.fichero2{
+    background-color: #ffffff;
+    width: 52%;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px;
+}
+.cap1, .cap2, .cap3, .cap4, .cap5{
+    display: inline-block;
+    margin: 10px;
+}
 
-nav {
-    margin: 20px 0;
+.icono1, .icono2, .icono3, .icono4, .icono5{
+    height: 20px;
     display: inline-block;
 }
-nav a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #645230;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
+.TYC p{
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 15px;
+    padding: 20px;
+    justify-self: center;
+}
+h4{
     display: inline-block;
 }
-nav a:hover{
-    background-color: #473b24;
-}
-
