@@ -85,58 +85,6 @@ button:hover{
     border: 2px solid #38100b;
     color: #38100b;
 }
-/*form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #B59DA4;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form label {
-    font-weight: bold;
-    margin-top: 10px;
-    display: block;
-    color: #333;
-}
-
-form input, form select, form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-top: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-}
-
-form textarea {
-    resize: vertical;
-    height: 150px;
-}
-
-form button {
-    display: block;
-    width: 100%;
-    padding: 14px;
-    background-color: #B59DA4; 
-    color: #551B14;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-form button:hover {
-    background-color: #968086; 
-    transform: translateY(-2px);
-}
-
-form input:focus, form select:focus, form textarea:focus {
-    border-color: #1e90ff; 
-    outline: none;
-}*/
 footer{
     background-color: #EEEBE5;
     color: #551B14;
