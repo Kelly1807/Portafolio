@@ -3,12 +3,34 @@
     <head>
         <title>Contactos</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <link rel="stylesheet" href="Contactos_Style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <h2>Portafolio</h2>
+            <a href="#" class="btnI">Sobre mí</a>
+            <a href="#" class="btnI">Portafolio</a>
+            <a href="#" class="btnI">Educación</a>
+            <a href="#" class="btnI">Contactos</a>
+        </header>
+        <section id="contacto">
+            <h2><i class="fas fa-phone-alt"></i> Contacto</h2>
+            <form action="Formulario_datos.php" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+    
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required placeholder="Ingresa tu correo electrónico">
+    
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje"></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
         <footer>
             <h1>Contactos</h1>
             <div class="ficheros">
@@ -28,8 +50,6 @@
                         <img class="icono3" alt="icono3" src="Imagenes/social.png">
                         <h4>Kelly Sánchez Gulumá</h4>
                     </div>                    
-                </div>
-                <div class="fichero3">
                     <div class="cap4">
                         <img class="icono4" alt="icono4" src="Imagenes/solicitud.png">
                         <h4>Kelly Sánchez Gulumá</h4>
